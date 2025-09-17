@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World com TypeScript e Tailwind</title>
+    <!-- Vamos incluir o Tailwind via CDN para simplificar -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+        <h1 class="text-3xl font-bold text-blue-600 mb-4" id="titulo">Hello World!</h1>
+        <p class="text-gray-600 mb-4">Este é meu primeiro projeto com TypeScript e Tailwind</p>
+        <button id="botao" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Clique em Mim!
+        </button>
+    </div>
+
+    <!-- Aqui vamos incluir nosso arquivo JavaScript compilado -->
+    <script src="../dist/app.js"></script>
+</body>
+</html>
